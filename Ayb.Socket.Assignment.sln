@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2DEF6D0B-95DF-47D3-8744-0CCF6DE3D82E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{C2483FAD-A008-4F3E-A6FE-A6640C6C1080}"
+	ProjectSection(SolutionItems) = preProject
+		docs\introduction.gif = docs\introduction.gif
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{7B0BEBBF-52AA-4DB2-9427-B946215FDCE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ayb.Socket.Assignment.Server", "src\Ayb.Socket.Assignment.Server\Ayb.Socket.Assignment.Server.csproj", "{7F25EA53-4573-4E52-9357-F1276F10CA29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ayb.Socket.Assignment.Client", "src\Ayb.Socket.Assignment.Client\Ayb.Socket.Assignment.Client.csproj", "{B84404D4-0804-4646-A209-D4F7C93EBA7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ayb.Socket.Assignment.Shared", "src\Ayb.Socket.Assignment.Shared\Ayb.Socket.Assignment.Shared.csproj", "{0F57C7C1-BBC9-458E-9094-1EF781AFEB95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ayb.Socket.Assignment.Tests", "tests\Ayb.Socket.Assignment.Tests\Ayb.Socket.Assignment.Tests.csproj", "{0868E4AB-D1D6-4A01-9A7E-3408D2982663}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7F25EA53-4573-4E52-9357-F1276F10CA29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F25EA53-4573-4E52-9357-F1276F10CA29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F25EA53-4573-4E52-9357-F1276F10CA29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F25EA53-4573-4E52-9357-F1276F10CA29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B84404D4-0804-4646-A209-D4F7C93EBA7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B84404D4-0804-4646-A209-D4F7C93EBA7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B84404D4-0804-4646-A209-D4F7C93EBA7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B84404D4-0804-4646-A209-D4F7C93EBA7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F57C7C1-BBC9-458E-9094-1EF781AFEB95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F57C7C1-BBC9-458E-9094-1EF781AFEB95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F57C7C1-BBC9-458E-9094-1EF781AFEB95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F57C7C1-BBC9-458E-9094-1EF781AFEB95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0868E4AB-D1D6-4A01-9A7E-3408D2982663}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0868E4AB-D1D6-4A01-9A7E-3408D2982663}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0868E4AB-D1D6-4A01-9A7E-3408D2982663}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0868E4AB-D1D6-4A01-9A7E-3408D2982663}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7F25EA53-4573-4E52-9357-F1276F10CA29} = {2DEF6D0B-95DF-47D3-8744-0CCF6DE3D82E}
+		{B84404D4-0804-4646-A209-D4F7C93EBA7C} = {2DEF6D0B-95DF-47D3-8744-0CCF6DE3D82E}
+		{0F57C7C1-BBC9-458E-9094-1EF781AFEB95} = {2DEF6D0B-95DF-47D3-8744-0CCF6DE3D82E}
+		{0868E4AB-D1D6-4A01-9A7E-3408D2982663} = {7B0BEBBF-52AA-4DB2-9427-B946215FDCE8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {165B6546-38A8-4BEC-9071-7D2084A3FC12}
+	EndGlobalSection
+EndGlobal
