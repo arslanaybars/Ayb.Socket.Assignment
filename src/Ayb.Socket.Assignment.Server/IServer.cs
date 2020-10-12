@@ -4,10 +4,10 @@ namespace Ayb.Socket.Assignment.Server
 {
     public interface IServer
     {
-        public void SetupServer();
+        void SetupServer();
 
-        public ServiceResponse CloseAllSockets();
+        ServiceResponse CloseAllSockets();
 
-        public ServiceResponse<string> Send(string message, bool isServerMessage = false);
+        ServiceResponse<string> Send(string message, bool isServerMessage = false);
     }
 }
